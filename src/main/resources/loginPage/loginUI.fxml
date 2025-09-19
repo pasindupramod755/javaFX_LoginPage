@@ -15,7 +15,7 @@
    <children>
       <ImageView fitHeight="475.0" fitWidth="846.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/bg.jpg" />
+            <Image url="@../image/bg.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#202020" height="391.0" layoutX="81.0" layoutY="38.0" opacity="0.23" stroke="WHITE" strokeType="INSIDE" width="330.0" />
@@ -63,7 +63,7 @@
       </Label>
       <ImageView fitHeight="90.0" fitWidth="126.0" layoutX="442.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../image/lock.png" />
+            <Image url="@../image/lock.png" />
          </image>
       </ImageView>
    </children>
