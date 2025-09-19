@@ -19,7 +19,7 @@ Good starting point for beginners learning **JavaFX layouts, styling, and FXML**
 ## 🛠️ Tech Stack
 - **JavaFX 17**
 - **Scene Builder** (for FXML UI design)  
-- **IntelliJ IDEA / NetBeans / Eclipse** (any IDE)  
+- **IntelliJ IDEA**
 
 ---
 
