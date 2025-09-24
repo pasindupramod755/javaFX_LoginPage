@@ -1,11 +1,15 @@
 package contraller;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.stage.Stage;
 
 import javax.swing.*;
+import java.io.IOException;
 
 public class LoginContrall {
     public TextField txtUser;
@@ -25,5 +29,14 @@ public class LoginContrall {
             a1.setHeaderText("Input Your Password!");
             a1.show();
         }
+    }
+    Stage stage = new Stage();
+    public void btnSignInAction(ActionEvent event) {
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/signIN.fxml"))));
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
+        stage.show();
     }
 }
